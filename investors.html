@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+
+    <title>
+      Data Cubed
+    </title>
+
+      <link href="dist/toolkit-startup.min.css" rel="stylesheet">
+      <link href="dist/application.css" rel="stylesheet">
+  
+
+    <style>
+      /* note: this is a hack for ios iframe for bootstrap themes shopify page */
+      /* this chunk of css is not part of the toolkit :) */
+      /* …curses ios, etc… */
+      @media (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+        body {
+          width: 1px;
+          min-width: 100%;
+          *width: 100%;
+        }
+        #stage {
+          height: 1px;
+          overflow: auto;
+          min-height: 100vh;
+          -webkit-overflow-scrolling: touch;
+        }
+      }
+    </style>
+  </head>
+
+
+<body>
+<div class="block app-contact pt-3 pb-2">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6">
+                <a href="index.html" class="h2"><img src="assets/img/arrow-back.svg" height="24px" align="left" class="mr-3">Back</a>
+            </div>
+        </div>
+    </div>
+</div>
+    
+<div class="block block-inverse" id="careers">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="form-group col-sm-4 col-lg-4 text-center">
+            <h1>Please enter your investor password:</h1><br>
+            <input class="form-control" type="password" value="" id="name"><br>
+                <!-- Form place holder
+            <button class="btn btn-primary btn-lg btn-borderless">Submit</button>-->
+                <a class="btn btn-primary btn-lg" href="investors_inside.html" role="button">Enter</a>
+            </div>
+        </div>
+    </div>
+</div>
+    
+<div class="block block-secondary app-contact" id="contact">
+    <div class="container">
+        <div class="form-group row app-align-center justify-content-center text-center">
+            <div class="col-sm-12 col-lg-8">
+                <h1>Need Access?</h1>
+                <p>
+                If you would like to learn more about Data&sup3; and have not already received investor credentials, please reach out to us at <a href="mailto:info@datacubed.com?subject=Investor Access">info@datacubed.com</a> with subject line: Investor Access, or fill out the form below and we will be in touch with you shortly. Thank you for your interest!</p>
+                <h2 class="pt-5">Contact Us</h2>
+            <label for="example-text-input" class="col-6 col-form-label">Your Name</label>
+            <input class="form-control" type="text" value="" id="name">
+            <label for="example-text-input" class="col-6 col-form-label">E-mail Address</label>
+            <input class="form-control" type="text" value="" id="email">
+            <label for="example-text-input" class="col-6 col-form-label">Your Message</label>
+            <textarea class="form-control" id="message" rows="5"></textarea><br>
+            <button class="btn btn-primary btn-lg btn-borderless">Send Message</button>
+            </div>
+                
+        </div>
+    </div>
+</div>
+    
+<div class="block block-inverse app-footer pt-5 pb-3">
+ <div class="container">
+    <div class="row app-align-center justify-content-center align-items-start">
+      <div class="col-md-32">
+        <ul class="list-unstyled list-spaced">
+          <li class="mb-2">
+              <img src="assets/img/d3_mono.png">
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-2 offset-md-1 mb-5 pt-3">
+        <ul class="list-unstyled list-spaced">
+          <li class="mb-2"><img src="assets/img/home.svg" height="24px"></li>
+          <li class="text-muted">300 Cadman Plaza West<br>
+              Suite 702<br>
+              Brooklyn, NY 11201</li>
+        </ul>
+      </div>
+      <div class="col-md-2 mb-5 pt-3">
+        <ul class="list-unstyled list-spaced">
+          <li class="mb-2"><img src="assets/img/email.svg" width="24px"></li>
+            <a class="text-muted" href="mailto:info@datacubed.com">Info@Datacubed.com</a>
+        </ul>
+      </div>
+      <div class="col-md-2 mb-5 pt-3">
+        <ul class="list-unstyled list-spaced">
+          <li class="mb-2"><img src="assets/img/phone.svg" height="24px"></li>
+          <li class="text-muted">+1 (646) 997-0248</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/tether.min.js"></script>
+    <script src="assets/js/toolkit.min.js"></script>
+    <script src="assets/js/application.js"></script>
+  </body>
+</html>
+

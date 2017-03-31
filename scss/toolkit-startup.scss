@@ -1,0 +1,59 @@
+@import "./variables.scss";
+
+// startup
+$brand-primary: $brand-yellow;
+
+// text overrides
+$body-color: $brand-blue;
+$font-size-base: 15px;
+$font-family-sans-serif: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-base: $font-family-sans-serif;
+$text-color: $brand-blue;
+$headings-color: $brand-green;
+$line-height-base: 1.4;
+
+
+// gray override
+$gray-light: #888;
+$text-muted: $gray-light;
+
+
+// h3 override
+$font-size-h3: 28px;
+
+
+// nav tranpsarent
+$navbar-transparent-brand-hover-bg:       transparent;
+$navbar-transparent-toggler-hover-bg:     transparent;
+$navbar-transparent-toggler-border-color: transparent;
+$navbar-transparent-toggler:              #f00;
+$navbar-light-toggler-bg:                 #f00;
+
+
+// nav bordered
+$nav-bordered-color:              $brand-blue;
+$nav-bordered-color-active:       $brand-green;
+$nav-bordered-border-left-active:   $brand-green;
+$nav-bordered-font-weight:        300;
+$nav-bordered-font-weight-active: 700;
+
+
+// misc typography
+$headings-font-weight: 500;
+$btn-font-weight:      400;
+$letter-spacing-base:  -.02em;
+
+
+// lead
+$lead-letter-spacing: $letter-spacing-base;
+$lead-font-size:      $font-size-base * 1.5;
+
+
+// blocks
+$block-title-font-size-sm: $font-size-base * 2.8;
+$block-title-font-size:    $font-size-base * 2.5;
+$block-lead-font-size-sm:  $font-size-base * 1.4;
+$block-vertical-padding:   100px;
+
+
+@import "./components.scss";

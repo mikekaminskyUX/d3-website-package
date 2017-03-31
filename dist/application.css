@@ -1,0 +1,149 @@
+/* fonts */
+
+@font-face{ 
+	font-family: 'Proxima Nova';
+	src: url('../assets/fonts/ProximaNova-Reg-webfont.eot');
+	src: url('../assets/fonts/ProximaNova-Reg-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('../assets/fonts/ProximaNova-Reg-webfont.woff') format('woff'),
+	     url('../assets/fonts/ProximaNova-Reg-webfont.ttf') format('truetype'),
+	     url('../assets/fonts/ProximaNova-Reg-webfont.svg#webfont') format('svg');
+}
+@font-face {
+    font-family: 'Calluna';
+    src: url('../assets/fonts/calluna-regular-webfont.eot');
+    src: url('../assets/fonts/calluna-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/calluna-regular-webfont.woff2') format('woff2'),
+         url('../assets/fonts/calluna-regular-webfont.woff') format('woff'),
+         url('../assets/fonts/calluna-regular-webfont.ttf') format('truetype'),
+         url('../assets/fonts/calluna-regular-webfont.svg#callunaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* navbar */
+
+.app-navbar {
+  font-weight: 500;
+  letter-spacing: .05em;
+  position: absolute;
+}
+
+.navbar-notop {
+    padding-top: 0px !important;
+}
+
+.navbar-toggler .navbar-toggler-icon .icon-bar {
+    background-color: black;
+}
+
+.app-data h1 {
+    font-size: 3em;
+    color: #003349;
+}
+
+
+
+/* NYU block */
+.app-nyu {
+  background-color: #003865;
+  overflow: hidden;
+  background-position: left top;
+  background-repeat: no-repeat !important;
+  background-size: 702px;
+  background-image: url(../assets/img/nyc.jpg);" 
+}
+
+.app-nyu-nopad div {
+    padding-left: 0px !important;
+}
+.app-nyu span {
+  color: #F1B434;
+}
+@media (max-width: 767px) {
+        .app-nyu {
+        background-image: none;
+    }
+
+}
+
+
+/* contact block */
+.app-contact {
+    background-color: #F2EFE8;
+}
+.app-contact btn{
+    color: #f00;
+    background-color: #030;
+}
+
+/* careers */
+.app-careers a {
+    line-height: 3;
+    text-decoration: underline;
+}
+.app-careers h4 {
+  color: #003865;
+}
+
+.app-investors h4 {
+    color: #003865;
+}
+.app-investors small {
+    color: #888;
+}
+
+/* footer block */
+.app-footer {
+  background-color: #003865;
+}
+.app-footer a {
+  color: #fff;
+}
+
+
+/* general block overrrides */
+@media (max-width: 768px) {
+  .block .lead {
+    line-height: 1.3;
+  }
+  .block h3 {
+    line-height: 1.15;
+  }
+}
+
+
+/* general inverse overrides */
+.block-inverse .text-muted {
+  color: rgba(255, 255, 255, .7) !important;
+}
+.block-inverse .block-bg-img {
+  background-color: transparent;
+}
+
+
+/* general btn overrides */
+.btn-lg {
+  font-size: 18px;
+  border-radius: 60px;
+}
+.block-secondary .btn-lg {
+  width: 100%;
+}
+.btn-lg:not(.btn-block) {
+  padding: 12px 50px;
+}
+@media (min-width: 768px) {
+  .btn-lg:not(.btn-block) {
+    width: auto;
+  }
+}
+
+
+/* ie10+ */
+@media (min-width: 768px) {
+  .app-align-center {
+    display: flex;
+    align-items: center;
+  }
+}
